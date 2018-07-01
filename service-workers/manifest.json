@@ -1,0 +1,8 @@
+{
+    "name": "Demo Currency Converter Application",
+    "short_name": "Demo Currency Converter Application",
+    "start_url": "index.html",
+    "background_color": "#3E4EB8",
+    "display": "standalone",
+    "theme_color": "#2E3AA1"
+}

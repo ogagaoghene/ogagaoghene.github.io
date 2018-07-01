@@ -1,0 +1,17 @@
+body {
+  background-color: #eee;
+}
+
+#page-header {
+  width: 100%;
+  background: #428bca;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  height: 50px;
+  color: #fff;
+}
+
+.centered-form {
+  margin-top: 38px;
+}
+
