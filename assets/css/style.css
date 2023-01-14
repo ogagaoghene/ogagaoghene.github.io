@@ -508,7 +508,10 @@ pre code {
 }
 
 .blackbtn {
-  padding: 5px 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
   border-radius: 5px;
   background-color:  #695aa6;/* adds a background colour to the button */
   color: #fff; /* changes the text colour */
@@ -521,7 +524,7 @@ pre code {
 }
 
 .decor {
-  margin: 20px auto;
+  margin: 30px auto;
   display: block;
 }
 
@@ -11162,10 +11165,12 @@ p {
   display: block;
   position: relative;
   overflow: hidden;
+  border-radius: 4px;
 }
 
 .portfolio-card .portfolio-card-img {
-  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 .portfolio-card .portfolio-card-overlay {
@@ -11420,6 +11425,7 @@ p {
   color: #fff;
   font-weight: 500;
   text-decoration: none;
+  font-size: 1.3rem !important;
 }
 
 .custom-navbar .nav .item .link:hover, .custom-navbar .nav .item .link.active {
@@ -11938,8 +11944,9 @@ p {
 
 .section .section-subtitle {
   margin-bottom: 6px;
-  font-weight: 400;
+  font-weight: 600;
   opacity: .6;
+  font-size: 23px !important;
 }
 
 .section-sm {
